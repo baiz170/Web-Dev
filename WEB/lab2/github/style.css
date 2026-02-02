@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #24292f;
+    background: #fff;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: #24292f;
+    font-size: 14px;
+}
+
+.sign-up {
+    font-weight: 600;
+}
+
+
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 56px 24px;
+    text-align: center;
+}
+
+.hero {
+    margin-bottom: 48px;
+}
+
+.hero-title {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    max-width: 860px;
+    margin: 0 auto 24px;
+    color: #57606a;
+}
+
+.hero-btn {
+    padding: 12px 22px;
+    background: linear-gradient(#3d3d3d, #000);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.pricing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.plan {
+    border: 1px solid #d0d7de;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.plan-price {
+    margin: 16px 0;
+    font-family: "Mona Sans";
+}
+
+.price-value {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.price-period {
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.btn {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.dark {
+    background: linear-gradient(#3d3d3d, #000);
+    color: #fff;
+}
+
+.outline {
+    border: 1px solid #8c8c8c;
+    color: #000;
+}
+
+.plan-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.features {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 12px;
+}
+
+.note {
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .pricing {
+        grid-template-columns: 1fr;
+    }
+
+    .plan-actions {
+        flex-direction: column;
+    }
+    .addons-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.addons {
+    padding: 80px 20px;
+}
+
+.addons-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.addons-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.addon-card {
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    padding: 24px;
+    background: #f6f8fa;
+}
+
+.addon-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.addon-card p {
+    color: #57606a;
+    font-size: 14px;
+}
+
